@@ -24,6 +24,17 @@ body {
   height: 100%;
   background: rgb(0, 68, 77);
 }
+
+  h1 {
+  text-align: center;
+  font-family: sans-serif;
+  color:"red";
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 4em;
+  }
 .button1 {
   background-color: rgb(44, 44, 44); /* Green */
   border: 2px solid rgb(0, 110, 255);
@@ -38,8 +49,8 @@ body {
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   position: absolute;
-  top: 40%;
-  left: 40%;
+  top: 50%;
+  left: 25%;
   transform: translateX(-50%) translateY(-50%);
 }
 .button2 {
@@ -56,8 +67,8 @@ body {
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   position: absolute;
-  top: 40%;
-  left: 60%;
+  top: 50%;
+  left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
 .button3 {
@@ -74,8 +85,8 @@ body {
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   position: absolute;
-  top: 65%;
-  left: 50%;
+  top: 50%;
+  right: 10%;
   transform: translateX(-50%) translateY(-50%);
 }
 .button3:hover {
@@ -91,13 +102,30 @@ body {
 }
 </style>
 <body>
+  <h1  style="color:rgb(0, 93, 105)">
+    <span class="letters letters-1">Do</span>
+    <span class="letters letters-2">Your</span>
+    <span class="letters letters-3">Best!</span>
+  </h1>
+  <h1 class="ml4" style="color:rgb(255, 255, 255);">
+    <span class="letters letters-1">Do</span>
+    <span class="letters letters-2">Your</span>
+    <span class="letters letters-3">Best!</span>
+  </h1>
+  
     <div id="particles-js"></div>
-    <button class="button button2">Volunteering</button>
-    <button class="button button1">Ground Team</button>
-    <button class="button button3">Need Help</button>
+    <button class="button2" onclick="newPage()">Volunteering</button>
+    <button class="button1">Ground Team</button>
+    <button class="button3">Need Help</button>
     
     
 </body>
+<script>
+    function newPage() {
+      window.location = "C:\\Users\\Adarsh G Daniel\\Desktop\\Anime\\voluenteer\\login.html";
+  }
+</script>
+<script src="js/t2.js"></script>
 <script src="app.js"></script>
 <script src="three.r95.min.js"></script>
 <script src="vanta.waves.min.js"></script>
