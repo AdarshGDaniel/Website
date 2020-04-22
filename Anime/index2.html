@@ -4,12 +4,26 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/demo.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    
     <link rel=¨stylesheet¨ type=¨css¨ href=¨style.css¨>
+    <script src="particles.js"></script>
+    <script src="particles.min.js"></script> 
 </head>
+
+
+
 <style>
 body {
-    background: rgb(0, 68, 77);
-    }
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  
+}
+#particles-js
+{
+  height: 100%;
+  background: rgb(0, 68, 77);
+}
 .button1 {
   background-color: rgb(44, 44, 44); /* Green */
   border: 2px solid rgb(0, 110, 255);
@@ -24,8 +38,8 @@ body {
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   position: absolute;
-  top: 45%;
-  left: 30%;
+  top: 40%;
+  left: 40%;
   transform: translateX(-50%) translateY(-50%);
 }
 .button2 {
@@ -42,9 +56,30 @@ body {
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   position: absolute;
-  top: 45%;
-  right: 10%;
+  top: 40%;
+  left: 60%;
   transform: translateX(-50%) translateY(-50%);
+}
+.button3 {
+  background-color: rgb(44, 44, 44); /* Green */
+  border: 2px solid rgb(0, 110, 255);
+  color: rgb(0, 238, 255);
+  padding: 70px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.button3:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .button2:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
@@ -56,7 +91,15 @@ body {
 }
 </style>
 <body>
-    <button class="button button2">Register for Volunteering</button>
+    <div id="particles-js"></div>
+    <button class="button button2">Volunteering</button>
     <button class="button button1">Ground Team</button>
+    <button class="button button3">Need Help</button>
+    
+    
 </body>
+<script src="app.js"></script>
+<script src="three.r95.min.js"></script>
+<script src="vanta.waves.min.js"></script>
+
 </html>

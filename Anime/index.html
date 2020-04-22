@@ -5,9 +5,11 @@
   <link rel="stylesheet" href="css/demo.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <link rel=¨stylesheet¨ type=¨css¨ href=¨style.css¨>
+
 </head>
 
 <body>
+  <div id="particles-js"></div>
   <h1>  </h1>
   <h1 class="ml3" style="color:rgb(255, 255, 255);">COVID-19</h1>
   <div class="download-button-container">
@@ -41,9 +43,17 @@
 </div>
 </body>
 <style>
-  body {
-    background: rgb(0, 68, 77);
-  }
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  
+}
+#particles-js
+{
+  height: 100%;
+  background: rgb(0, 68, 77);
+}
   h1 {
   text-align: center;
   font-family: sans-serif;
@@ -56,6 +66,8 @@
   }
 </style>
 <script src="anime.js"></script>
+<script src="particles.js"></script>
+<script src="app.js"></script>
 <script src='js/anime.min.js'></script>
 <script src='js/segment.min.js'></script>
 <script src='js/demo.js'></script>
