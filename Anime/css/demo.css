@@ -12,6 +12,13 @@ body {
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   text-align: center;
+
+  transition: width 2s, height 2s, transform 2s;
+  
+}
+
+.download-button-container.animate {
+  transform: scale(10);
 }
 
 .download-button-container.downloading .download-button {
@@ -27,7 +34,7 @@ body {
 }
 
 .download-button-container.downloading .button-wave {
-  left: -10px;
+  left: 30%;
 }
 
 .download-button-container.downloading .button-wave:before {
@@ -63,6 +70,8 @@ body {
 
 .download-button-container.completed .download-button {
   width: 230px;
+
+  
 }
 
 .download-button-container.completed .button-icon {
@@ -70,11 +79,14 @@ body {
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+          
 }
 
 .download-button-container.completed .button-icon, .download-button-container.completed .button-svg {
   opacity: 0;
   transition: 0.3s;
+  
+  
 }
 
 .download-button-container.completed .button-text-done {

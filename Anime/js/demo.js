@@ -20,7 +20,6 @@
     // Capture click events
     button.addEventListener('click', function () {
         startDownload();
-        
 
     });
 
@@ -96,9 +95,8 @@
                             // Update variables and CSS classes, and return the button to the original state
                             completed = false;
                             setTimeout(function () {
-                                button.scale
                                 button.remove();
-                                buttonContainer.remove();
+                                
                                 window.location = "index2.html";
                             }, 500);
                         }

@@ -5,11 +5,31 @@ body {
     font-family: 'Raleway', sans-serif;
     color: #F2F2F2;
 }
-
+.ml2 {
+    position: absolute;
+    font-weight: 900;
+    font-size: 3.5em;
+    top: 50%;
+    left: 22%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+    font-family: sans-serif;
+  }
+  
+  .ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+  
 #container-login {
+    opacity: 0.9;
+    position: fixed;
     background-color: #1D1F20;
-    position: relative;
-    top: 20%;
+    border: 2px solid rgb(0, 110, 255);
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
     margin: auto;
     width: 340px;
     height: 445px;
@@ -19,9 +39,15 @@ body {
 }
 
 #container-register {
+    opacity: 0.9;
+    position: fixed;
     background-color: #1D1F20;
-    position: relative;
-    top: 20%;
+    border: 2px solid rgb(0, 110, 255);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
     margin: auto;
     width: 340px;
     height: 480px;
