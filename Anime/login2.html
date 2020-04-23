@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <meta name="description" content="Login - Register Template">
+    <meta name="author" content="Lorenzo Angelino aka MrLolok">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="particles.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <style>
+        body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        
+        }
+        #particles-js
+        {
+        position: relative;
+        height: 100%;
+        background-image: linear-gradient(to right, rgb(0, 68, 77), rgba(0, 187, 194, 0.644));
+        }
+    </style>
+</head>
+<h1 class="ml2" style="color:rgb(255, 255, 255);">Login Ground Team!</h1>
+<body id="particles-js">
+        <div id="container-login">
+            <div id="title">
+                <i class="material-icons lock">lock</i> Login
+            </div>
+
+            <form>
+                <div class="input">
+                    <div class="input-addon">
+
+                        <i class="material-icons">face</i>
+                    </div>
+                    <input id="username" placeholder="Username" type="text" required class="validate" autocomplete="off">
+                </div>
+
+                <div class="clearfix"></div>
+                
+                <div class="input">
+                    <div class="input-addon">
+                        <i class="material-icons">vpn_key</i>
+                    </div>
+                    <input id="password" placeholder="Password" type="password" required class="validate" autocomplete="off">
+                </div>
+
+                <div class="remember-me">
+                    <input type="checkbox">
+                    <span style="color: #DDD">Remember Me</span>
+                </div>
+
+                <input type="submit" value="Log In" />
+            </form>
+
+            <div class="forgot-password">
+                <a href="#">Forgot your password?</a>
+            </div>
+            <div class="privacy">
+                <a href="#">Privacy Policy</a>
+            </div>
+
+            <div class="register">
+                Don't have an account yet?
+                <a href="#"><button id="register-link">Register here</button></a>
+
+            </div>
+
+<script src="anime2.js"></script>
+<script src="app.js"></script> 
+    
+
+</body>
+
+</html>
