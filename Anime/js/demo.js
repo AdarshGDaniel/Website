@@ -96,9 +96,10 @@
                             // Update variables and CSS classes, and return the button to the original state
                             completed = false;
                             setTimeout(function () {
+                                button.scale
                                 button.remove();
                                 buttonContainer.remove();
-                                window.location = "C:\\Users\\Adarsh G Daniel\\Desktop\\Anime\\index2.html";
+                                window.location = "index2.html";
                             }, 500);
                         }
                     });
