@@ -116,6 +116,14 @@ body {
     border-right: 1px solid rgba(255, 255, 255, 0.05);
 }
 
+.input-addon3 {
+    float: left;
+    background-color: #373b3d;
+    border: 1px solid #373b3d;
+    padding: 0px 8px;
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
+
 input[type=checkbox] {
     cursor: pointer;
 }
@@ -125,9 +133,10 @@ input[type=text] {
     margin: 0;
     background-color: #373b3d;
     border: 1px solid #373b3d;
-    padding: 6px 0px;
+    padding: 10px 0px;
     border-radius: 3px;
 }
+
 
 input[type=text]:focus {
     border: 1px solid #373b3d;
@@ -142,11 +151,24 @@ input[type=tel] {
     border-radius: 3px;
 }
 
+textarea {
+    resize: none;
+    font-size: 1.2em;
+    color: #949494;
+    margin: 0;
+    background-color: #373b3d;
+    border: 1px solid #373b3d;
+    padding: 10px 0px;
+    border-radius: 3px;
+ }
+
+
 input[type=tel]:focus {
     border: 1px solid #373b3d;
 }
 
 input[type=radio] {
+    font-family: sans-serif ;
     color: #949494;
     margin: 0;
     background-color: #373b3d;
@@ -237,11 +259,11 @@ input[type=email]:focus {
 }
 
 .remember-me2 {
-    margin: 220px 0;
+    margin: 10px 0;
 }
 input[value="Register."] {
     position: relative;
-    margin: -210px 0;
+    margin: -0px 0;
     padding: 6px 25px;
     background: #373E4A;
     color: #C1C3C6;
