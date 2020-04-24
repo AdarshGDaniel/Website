@@ -32,13 +32,13 @@
         <div id="title">
             <i class="material-icons lock">lock</i> Register
         </div>
-
+        <form method="POST" action="php/connect.php">
         <form>
             <div class="input">
                 <div class="input-addon">
                     <i class="material-icons">email</i>
                 </div>
-                <input id="email" placeholder="Email" type="email" required class="validate" autocomplete="off">
+                <input id="email" placeholder="Email" type="email" required class="validate" autocomplete="off" name="email">
             </div>
 
             <div class="clearfix"></div>
@@ -47,7 +47,7 @@
                 <div class="input-addon">
                     <i class="material-icons">face</i>
                 </div>
-                <input id="username" placeholder="Username" type="text" required class="validate" autocomplete="off">
+                <input id="username" placeholder="Username" type="text" required class="validate" autocomplete="off" name="username">
             </div>
 
             <div class="clearfix"></div>
@@ -56,7 +56,7 @@
                 <div class="input-addon">
                     <i class="material-icons">vpn_key</i>
                 </div>
-                <input id="password" placeholder="Password" type="password" required class="validate" autocomplete="off">
+                <input id="password" placeholder="Password" type="password" required class="validate" autocomplete="off" name="password">
             </div>
 
             <div class="remember-me">
@@ -67,7 +67,7 @@
             <input type="submit" value="Register" />
         </form>
 
-        <div class="privacy">
+        <div class="privacy" onclick="messageAlert1()">
             <a href="#">Privacy Policy</a>
         </div>
 
@@ -76,9 +76,13 @@
             <a href="#"><button id="register-link" onclick="newPage()">Log In here</button></a>
         </div>
     </div>
+</form>
 <script>
     function newPage() {
         window.location = "login.html";
+    }
+    function messageAlert1() {
+        alert("Note: This page is just to help people during COVID-19");
     }
 </script>
 <script src="js/anime2.js"></script>
