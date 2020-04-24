@@ -71,7 +71,7 @@ body {
     transform: translate(-50%, -50%); 
     margin: auto;
     width: 340px;
-    height: 200px;
+    height: 600px;
     border-radius: 0.35em;
     box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -237,11 +237,11 @@ input[type=email]:focus {
 }
 
 .remember-me2 {
-    margin: -20px 0;
+    margin: 220px 0;
 }
 input[value="Register."] {
     position: relative;
-    margin: -400px 0;
+    margin: -210px 0;
     padding: 6px 25px;
     background: #373E4A;
     color: #C1C3C6;
