@@ -233,12 +233,49 @@ input[type=email]:focus {
 }
 
 .remember-me {
-    margin: 400px 0;
+    margin: 20px 0;
 }
 
-input[type=submit] {
+.remember-me2 {
+    margin: 420px 0;
+}
+input[value="Register."] {
     position: relative;
-    margin: -375px 0;
+    margin: -400px 0;
+    padding: 6px 25px;
+    background: #373E4A;
+    color: #C1C3C6;
+    font-weight: bold;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+input[value="Register"] {
+    position: relative;
+    margin: -10px 0;
+    padding: 6px 25px;
+    background: #373E4A;
+    color: #C1C3C6;
+    font-weight: bold;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+input[value="Log In"] {
+    position: relative;
+    margin: -10px 0;
+    padding: 6px 25px;
+    background: #373E4A;
+    color: #C1C3C6;
+    font-weight: bold;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.submit {
+    position: relative;
+    margin: -30px 0;
     padding: 6px 25px;
     background: #373E4A;
     color: #C1C3C6;

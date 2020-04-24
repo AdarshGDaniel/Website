@@ -42,20 +42,23 @@ body {
   opacity: 0.8;
   font-size: 32px;
   text-align: center;
-  position: fixed;
+  position: absolute;
   padding: 50px;
   background-color: rgb(44, 44, 44); /* Green */
   border: 2px solid rgb(0, 110, 255);
   color: rgb(0, 238, 255);
   transition: transform .2s;
-  width: 300px;
-  height: 200px;
-  margin: 400 200;
+  width: 200px;
+  height: 50px;
+  top: 40%;
+  left: 10%;
+  margin-right: -50%;
+
 
   
 }
 .zoom:hover {
-  position: fixed;
+  position: absolute;
   -ms-transform: scale(1).2; /* IE 9 */
   -webkit-transform: scale(1.2); /* Safari 3-8 */
   transform: scale(1.2); 
@@ -66,19 +69,21 @@ body {
   opacity: 0.8;
   font-size: 32px;
   text-align: center;
-  position: fixed;
+  position: absolute;
   padding: 50px;
   background-color: rgb(44, 44, 44); /* Green */
   border: 2px solid rgb(0, 110, 255);
   color: rgb(0, 238, 255);
   transition: transform .2s;
-  width: 300px;
-  height: 200px;
-  margin: 400 800;
+  width: 200px;
+  height: 50px;
+  top: 40%;
+  left: 43%;
+  margin-right: -50%;
 
 }
 .zoom1:hover {
-  position: fixed;
+  position: absolute;
   -ms-transform: scale(1.2); /* IE 9 */
   -webkit-transform: scale(1.2); /* Safari 3-8 */
   transform: scale(1.2); 
@@ -89,18 +94,21 @@ body {
   opacity: 0.8;
   font-size: 32px;
   text-align: center;
-  position: fixed;
+  position: absolute;
   padding: 50px;
   background-color: rgb(44, 44, 44); /* Green */
   border: 2px solid rgb(0, 110, 255);
   color: rgb(0, 238, 255);
   transition: transform .2s;
-  width: 300px;
-  height: 200px;
-  margin: 400 1350;
+  width: 200px;
+  height: 50px;
+  top: 40%;
+  left: 73%;
+  margin-right: -50%;
+
 }
 .zoom2:hover {
-  position: fixed;
+  position: absolute;
   -ms-transform: scale(1.2); /* IE 9 */
   -webkit-transform: scale(1.2); /* Safari 3-8 */
   transform: scale(1.2); 
@@ -122,9 +130,9 @@ body {
   </h1>
   
     <div id="particles-js"></div>
-    <button class="zoom1" onclick="newPage()">Volunteering</button>
-    <button class="zoom" onclick="newPage2()">Ground Team</button>
-    <button class="zoom2" onclick="newPage3()">Need Help</button>
+    <div class="zoom1" onclick="newPage()">Volunteering</div>
+    <div class="zoom" onclick="newPage2()">Ground Team</div>
+    <div class="zoom2" onclick="newPage3()">Need Help</div>
     
     
 </body>
