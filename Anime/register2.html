@@ -25,10 +25,10 @@
         }
     </style>
 </head>
-<h1 class="ml2" style="color:rgb(255, 255, 255);">Need Help? Register!</h1>
+<h1 class="ml2" style="color:rgb(255, 255, 255);">Register new commers!</h1>
 <body id="particles-js">
     
-    <div id="container-register2">
+    <div id="container-register">
         <div id="title">
             <i class="material-icons lock">lock</i> Register
         </div>
@@ -47,35 +47,40 @@
                 <div class="input-addon">
                     <i class="material-icons">face</i>
                 </div>
-                <input id="name" placeholder="Name" type="text" required class="validate" autocomplete="off">
+                <input id="username" placeholder="Username" type="text" required class="validate" autocomplete="off">
             </div>
 
             <div class="clearfix"></div>
 
             <div class="input">
                 <div class="input-addon">
-                    <i class="material-icons">call</i>
+                    <i class="material-icons">vpn_key</i>
                 </div>
-                <input id="phone" placeholder="Phone" type="tel" required class="validate" autocomplete="off">
-            </div>
-
-            <div class="input">
-                <div class="input-addon2">
-                    <i class="material-icons">favorite</i>
-                </div>
-                <input type="radio" name="gender" value="male"> Male
-                <input type="radio" name="gender" value="male"> Female
-                
+                <input id="password" placeholder="Password" type="password" required class="validate" autocomplete="off">
             </div>
 
             <div class="remember-me">
                 <input type="checkbox">
-                <span style="color: #DDD">I accept above details</span>
+                <span style="color: #DDD">I accept Terms of Service</span>
             </div>
 
             <input type="submit" value="Register" />
         </form>
+
+        <div class="privacy">
+            <a href="#">Privacy Policy</a>
+        </div>
+
+        <div class="register">
+            Do you already have an account?
+            <a href="#"><button id="register-link" onclick="newPage()">Log In here</button></a>
+        </div>
     </div>
+<script>
+    function newPage() {
+        window.location = "login.html";
+    }
+</script>
 <script src="anime2.js"></script>
 <script src="app.js"></script> 
 </body>
